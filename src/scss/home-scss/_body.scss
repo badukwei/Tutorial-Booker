@@ -1,0 +1,56 @@
+.body {
+  position: relative;
+  display: flex;
+  padding: 6.25rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #BAD7F2;
+
+
+  &__texts {
+    position: relative;
+    text-align: center;
+
+    .body__title {
+      font-size: 2rem;
+    }
+
+    .body__paragraph {
+      margin-bottom: 2rem;
+      line-height: 1.5rem;
+    }
+
+    .icon2 {
+      position: absolute;
+      max-width: 6rem;
+      top: -1rem;
+      left: -5rem;
+    }
+  }
+
+
+  &__imgs {
+    position: relative;
+    
+    .img-main {
+    max-width: 17.5rem;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .icon1 {
+      position: absolute;
+      max-width: 5rem;
+      bottom: -2.5rem;
+      right: -1.8rem;
+      opacity: 0.6;
+    }
+    .icon3 {
+      position: absolute;
+      max-width: 7rem;
+      top: -3rem;
+      left: -3.5rem;
+      opacity: 0.8;
+    }
+  }
+}
