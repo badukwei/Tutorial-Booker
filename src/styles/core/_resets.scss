@@ -1,0 +1,29 @@
+html {
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+
+	#root {
+		height: 100vh;
+		position: relative;
+	}
+
+	h1, h2, h3, p, label{
+		color: $veryDarkBlue;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+
+

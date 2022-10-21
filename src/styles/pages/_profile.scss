@@ -1,0 +1,65 @@
+.profile {
+  width: 80%;
+  margin: 1rem auto;
+  color: #3A4855;
+
+  h2 {
+    margin: 1.2rem 0;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+    padding-top: 0.5rem;
+  }
+
+  .info {
+    position: relative;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #E5E5E5;
+
+    .name {
+      margin-top: 1rem;
+    }
+
+    .img {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      top: 1rem;
+      right: 0rem;
+      border-radius: 100%;
+      background-color: #E5E5E5;
+    }
+  }
+
+  .major-info {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #E5E5E5;
+
+    .major-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      .major {
+        padding-top: 0.5rem;
+      }
+    }
+  }
+
+  .description-info {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #E5E5E5;
+  }
+
+  .rate-info {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}

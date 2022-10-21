@@ -1,0 +1,31 @@
+{
+    "name": "ej2",
+    "version": "20.3.48",
+    "components": [
+        "schedule"
+    ],
+    "injectables": {
+        "schedule": [
+            "Day",
+            "Week",
+            "WorkWeek",
+            "Month",
+            "Year",
+            "Agenda",
+            "MonthAgenda",
+            "TimelineViews",
+            "TimelineMonth",
+            "TimelineYear",
+            "Resize",
+            "DragAndDrop",
+            "ExcelExport",
+            "ICalendarExport",
+            "ICalendarImport",
+            "Print"
+        ]
+    },
+    "minified": false,
+    "themes": [
+        "material"
+    ]
+}

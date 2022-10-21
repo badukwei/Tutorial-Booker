@@ -1,0 +1,13 @@
+.hide-for-mobile {
+  // hide for tablet and mobile
+  @include breakpoint-down(small) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  // hide for desktop viewport widths
+  @include breakpoint-up(medium) {
+    display: none;
+  }
+}

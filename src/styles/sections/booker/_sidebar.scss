@@ -1,0 +1,84 @@
+.sidebar {
+  padding: 0.5rem;
+  padding-top: 0px;
+  color: $darkGray;
+
+  .price-title {
+    margin: 0px;
+    margin-bottom: 1.2rem;
+    font-size: $l;
+  }
+
+  .price {
+    display: flex;
+
+    label {
+      margin: 0.5rem 0.5rem;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: $bold;
+    }
+
+    &__input {
+      width: 100%;
+      text-align: center;
+      font-weight: 400;
+      font-size: 16px;
+      border: 2px solid $lightGray;
+      border-radius: 0.5rem ;
+      outline: none;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+    }
+  }
+  
+  .subject-title {
+    margin: 0px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-size: $l;
+  }
+
+  .subject-container {
+
+    .subject {
+      margin-bottom: 0.5rem;
+      padding: 0.3rem;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 0.5rem;
+      font-weight: $normal;
+      transition: background-color 300ms ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $lightGrayBlue;
+      }
+
+      div {
+        width: 20px;
+        height: 20px;
+        border: 2px solid $lightGray;
+        border-radius: 0.2rem;
+      }
+
+      img {
+        width: 20px;
+        height: 20px;
+        opacity: 0.8;
+      }
+    }
+
+    .active {
+      background-color: $lightGrayBlue;
+      color: black;
+      font-weight: $bold;
+    }
+  }
+}
+

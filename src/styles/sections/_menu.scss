@@ -1,0 +1,23 @@
+.menu {
+  position: absolute;
+  z-index:100;
+
+  h1 {
+    margin: 1rem auto;
+    text-align: center;
+    color: $darkGray;
+    font-size: $l;
+    font-weight: $bold;
+  }
+
+  .tutor-menu, .tutee-menu{
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.desktop-menu-position {
+  width: 20rem;
+  right: 1rem;
+  top: 4rem;
+}

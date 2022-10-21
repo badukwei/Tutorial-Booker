@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 function Contact() {
   return (
-    <div>
-      <h1>This is Contact</h1>
+    <div className="message-container">
+      <h1>Wei Chun Lin</h1>
+      <h1>Email</h1>
+      <p>linwgpeter@gmail.com</p>
     </div>
   )
 }

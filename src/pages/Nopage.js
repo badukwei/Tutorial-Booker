@@ -1,9 +1,10 @@
-import React from 'react';
-
+import React from "react";
 
 function NoPage() {
   return (
-    <h1>Page not found!</h1>
+    <div className="message-container">
+      <h1>Page not found!</h1>
+    </div>
   )
 }
 

@@ -1,0 +1,39 @@
+//abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./abstracts/animations";
+
+//core
+@import "./core/resets.scss";
+
+//components
+@import "./components/form";
+@import "./components/buttons";
+@import "./components/container";
+@import "./components/logout";
+@import "./components/visibility";
+
+//layouts
+@import "./layouts/flex.scss";
+@import "./layouts/grid.scss";
+
+//pages
+@import "./pages/home";
+@import "./pages/profile";
+@import "./pages/booker";
+@import "./pages/tutor-profolio";
+@import "./pages/login";
+
+//sections
+@import "./sections/cards";
+@import "./sections/hamburger-menu";
+@import "./sections/menu";
+@import "./sections/navbar";
+@import "./sections/booker/sidebar";
+@import "./sections/booker/topbar";
+@import "./sections/become-tutor";
+@import "./sections/tutor-form";
+
+
+
+

@@ -1,0 +1,29 @@
+.booker-main {
+  padding: 0px 1rem;
+  gap: 1rem;
+
+  @include breakpoint-up(medium) {
+    display: flex;
+  }
+
+  .sidebar {
+    width: 14rem;
+
+    @include breakpoint-down(small) {
+      position: absolute;
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: white;
+      z-index: 100;
+    }
+  }
+
+  .tutor-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    justify-items: center;
+    gap: 2rem;
+  }
+}

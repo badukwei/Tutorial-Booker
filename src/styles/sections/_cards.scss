@@ -1,0 +1,67 @@
+.card {
+  width: 16rem;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.2rem;
+  background-color: $lightGrayBlue;
+
+  &__img {
+    width: 100%;
+    border-radius: 3px 3px 0px 0px;
+  }
+
+  .name {
+    margin: 1.5rem 0;
+    text-align: center;
+    color: $veryDarkBlue;
+  }
+
+  &__header {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    li {
+      padding: 0.5rem;
+      color: white;
+      background-color: $veryDarkBlue;
+      opacity: 0.8;
+      font-size: 0.8rem;
+      font-weight: 500;
+      border-radius: 0.2rem;
+    }
+  }
+
+  &__content {
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+    h2 {
+      margin-top: 1rem;
+      margin-bottom: 0.2rem;
+      font-size: 1.25rem;
+      color: $veryDarkBlue;
+    }
+
+    p {
+      margin: 0;
+      color: $veryDarkBlue;
+      line-height: 1.15rem;
+    }
+  }
+
+  &__price {
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: $lightBlue;
+    border-radius: 0.2rem;
+  }
+}

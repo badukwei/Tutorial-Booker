@@ -1,0 +1,39 @@
+.form {
+  gap: 1rem;
+
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid $lightGray;
+    border-radius: 0.2rem;
+    color: $veryDarkBlue;
+    background-color: $lightGrayBlue;
+    font-size: 1rem;		
+    
+    &:focus {
+      outline: 1px solid $darkGray;
+    }
+  }
+
+  textarea {
+    border: 1px solid $lightGray;
+    border-radius: 0.2rem;
+    color: $veryDarkBlue;
+    background-color: $lightGrayBlue;
+    font-size: 1rem;	
+    text-indent: 0.5rem;
+    line-height: 1.5rem;
+  }
+
+  label {
+    color: $veryDarkBlue;
+    font-size: $m;
+    font-weight: $light;
+  }
+
+  .submit-button {
+    margin: 1rem;
+    padding: 0.875rem 2.1875rem;
+    color: white;
+  }
+}

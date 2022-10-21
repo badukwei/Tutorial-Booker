@@ -1,0 +1,58 @@
+.tutor-info {
+  
+  .tutor {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+    &__img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 100%;
+      background-color: #F4F8FC;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1rem;
+      
+      .name {
+        margin: 0px;
+        color: #3A4855;
+      }
+
+      .major-container {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+
+        .major {
+          padding: 0.5rem;
+          border-radius: 0.2rem;
+          color: white;
+          background-color: #002B4E;
+          font-size: 0.8rem;
+          opacity: 0.8;
+        }
+      }
+
+      .price {
+        padding: 0.5rem;
+        border-radius: 0.2rem;
+        background-color: #BAD7F2;
+        font-size: 0.5rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
