@@ -8,7 +8,7 @@ const membersData = {
         "password": "abc1234567",
         "email": "tutor@gmail.com",
         "major1": "Baduk",
-        "major2": "Prgramming",
+        "major2": "Programming",
         "major3": "Math",
         "description": "I am an amateur 7 dan player in Taiwan. And I was a insei in Taiwan go association (A class).",
         "rate": 50,
