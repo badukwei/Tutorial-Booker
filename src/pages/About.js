@@ -19,12 +19,22 @@ function About() {
         <h3>Skills</h3>
         <ul className="major-list">
           <li className="major">React</li>
-          <li className="major">Es6</li>
-          <li className="major">Css3 & Html5</li>
+          <li className="major">Redux</li>
+        </ul>
+        <ul className="major-list">
+          <li className="major">HTML5</li>
+          <li className="major">Javascript(Es6)</li>
+          <li className="major">Css3</li>
+        </ul>
+        <ul className="major-list">
+          <li className="major">Sass(Scss)</li>
+          <li className="major">React scheduler</li>
+          <li className="major">React route</li>
+          <li className="major">React hook form</li>     
         </ul>
       </div>
       <div className="description-info">
-        <h3>Description</h3>
+        <h3>About me</h3>
         <p className="description"></p>
       </div>
     </div>

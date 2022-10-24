@@ -34,7 +34,7 @@ function TutorProfolio() {
               alt={item.name}
               className="tutor__img"
             />
-            <div className="container">
+            <div className="info">
               <h2 className="name">{item.name}</h2>
               <ul className="major-container">
                 {item.major1 &&

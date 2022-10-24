@@ -15,7 +15,6 @@
   .name {
     margin: 1.5rem 0;
     text-align: center;
-    color: $veryDarkBlue;
   }
 
   &__header {
@@ -47,12 +46,10 @@
       margin-top: 1rem;
       margin-bottom: 0.2rem;
       font-size: 1.25rem;
-      color: $veryDarkBlue;
     }
 
     p {
       margin: 0;
-      color: $veryDarkBlue;
       line-height: 1.15rem;
     }
   }

@@ -36,7 +36,7 @@ function Navbar() {
         </li>
       </ul>
       { isLoggedIn ? <AccountInfo /> : <NotLoggedIn /> }
-      <div className="hamburger-button" onClick={handleActive}>
+      <div className={isActive ? "open hamburger-button hide-for-desktop" : "hamburger-button hide-for-desktop"} onClick={handleActive}>
         <span></span>
         <span></span>
         <span></span>

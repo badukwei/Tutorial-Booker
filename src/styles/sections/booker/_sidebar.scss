@@ -26,7 +26,10 @@
       font-size: 16px;
       border: 2px solid $lightGray;
       border-radius: 0.5rem ;
-      outline: none;
+
+      &:focus {
+        outline: 1px solid $darkGray;
+      }
     }
 
     input::-webkit-outer-spin-button,

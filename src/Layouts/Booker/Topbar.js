@@ -1,12 +1,11 @@
-import React, { useState } from "react";
-import Sidebar from "./Sidebar";
+import React from "react";
 
 //Click the item and show the result
 function Topbar(props) {
 
   return (
-    <div className="flex-row-space-between hide-for-desktop">
-      <div className="hamburger-button" onClick={props.handleActive}>
+    <div className="flex-row-space-between">
+      <div className={props.isActive ? "hamburger-button open hide-for-desktop" : "hamburger-button hide-for-desktop"} onClick={props.handleActive}>
         <span></span>
         <span></span>
         <span></span>

@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-// import memberData from "../../../data/memberData";
+import React from "react";
 import SubjectFilter from "../../Components/Booker/SubjectFilter";
 
 function Sidebar(props) {

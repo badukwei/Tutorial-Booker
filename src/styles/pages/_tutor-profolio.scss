@@ -3,19 +3,27 @@
   .tutor {
     margin: 1rem;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 2rem;
 
+    @include breakpoint-down(small) {
+      gap: 1rem;
+    }
 
     &__img {
+      display: block;
       width: 10rem;
       height: 10rem;
       border-radius: 100%;
       background-color: #F4F8FC;
+
+      @include breakpoint-down(small) {
+        width: 7rem;
+        height: 7rem;
+      }
     }
 
-    .container {
+    .info {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -24,7 +32,7 @@
       
       .name {
         margin: 0px;
-        color: #3A4855;
+        font-weight: $normal;
       }
 
       .major-container {
@@ -36,13 +44,26 @@
         gap: 1rem;
         list-style: none;
 
+        @include breakpoint-down(small) {
+          display: inline-block;
+        }
+
         .major {
+          vertical-align: middle;
           padding: 0.5rem;
           border-radius: 0.2rem;
           color: white;
-          background-color: #002B4E;
+          background-color: $veryDarkBlue;
           font-size: 0.8rem;
           opacity: 0.8;
+
+          @include breakpoint-down(small) {
+            margin-bottom: 0.5rem;
+
+            &:last-child {
+              margin-bottom: 0px;
+            }
+          }
         }
       }
 

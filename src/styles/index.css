@@ -128,19 +128,26 @@ body h1, body h2, body h3, body p, body label {
 
 .hamburger-button {
   margin-left: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  cursor: pointer;
 }
-@media (min-width: 40em) {
-  .hamburger-button {
-    display: none;
-  }
+.hamburger-button > span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #002B4E;
+  transition: all 300ms ease-in-out;
+  transform-origin: 3px 1px;
 }
-.hamburger-button span {
-  width: 1.3rem;
-  border: 1px solid;
+.hamburger-button > span:not(:last-child) {
+  margin-bottom: 5px;
+}
+.hamburger-button.open > span:first-child {
+  transform: rotate(45deg);
+}
+.hamburger-button.open > span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-button.open > span:last-child {
+  transform: rotate(-45deg);
 }
 
 .message-container {
@@ -445,28 +452,39 @@ body h1, body h2, body h3, body p, body label {
 .tutor-info .tutor {
   margin: 1rem;
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
 }
+@media (max-width: 39.9375em) {
+  .tutor-info .tutor {
+    gap: 1rem;
+  }
+}
 .tutor-info .tutor__img {
+  display: block;
   width: 10rem;
   height: 10rem;
   border-radius: 100%;
   background-color: #F4F8FC;
 }
-.tutor-info .tutor .container {
+@media (max-width: 39.9375em) {
+  .tutor-info .tutor__img {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+.tutor-info .tutor .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
 }
-.tutor-info .tutor .container .name {
+.tutor-info .tutor .info .name {
   margin: 0px;
-  color: #3A4855;
+  font-weight: 500;
 }
-.tutor-info .tutor .container .major-container {
+.tutor-info .tutor .info .major-container {
   margin: 0px;
   padding: 0px;
   display: flex;
@@ -475,7 +493,13 @@ body h1, body h2, body h3, body p, body label {
   gap: 1rem;
   list-style: none;
 }
-.tutor-info .tutor .container .major-container .major {
+@media (max-width: 39.9375em) {
+  .tutor-info .tutor .info .major-container {
+    display: inline-block;
+  }
+}
+.tutor-info .tutor .info .major-container .major {
+  vertical-align: middle;
   padding: 0.5rem;
   border-radius: 0.2rem;
   color: white;
@@ -483,7 +507,15 @@ body h1, body h2, body h3, body p, body label {
   font-size: 0.8rem;
   opacity: 0.8;
 }
-.tutor-info .tutor .container .price {
+@media (max-width: 39.9375em) {
+  .tutor-info .tutor .info .major-container .major {
+    margin-bottom: 0.5rem;
+  }
+  .tutor-info .tutor .info .major-container .major:last-child {
+    margin-bottom: 0px;
+  }
+}
+.tutor-info .tutor .info .price {
   padding: 0.5rem;
   border-radius: 0.2rem;
   background-color: #BAD7F2;
@@ -511,7 +543,6 @@ body h1, body h2, body h3, body p, body label {
 .card .name {
   margin: 1.5rem 0;
   text-align: center;
-  color: #002B4E;
 }
 .card__header {
   margin: 0;
@@ -540,11 +571,9 @@ body h1, body h2, body h3, body p, body label {
   margin-top: 1rem;
   margin-bottom: 0.2rem;
   font-size: 1.25rem;
-  color: #002B4E;
 }
 .card__content p {
   margin: 0;
-  color: #002B4E;
   line-height: 1.15rem;
 }
 .card__price {
@@ -719,7 +748,9 @@ body h1, body h2, body h3, body p, body label {
   font-size: 16px;
   border: 2px solid #dadce0;
   border-radius: 0.5rem;
-  outline: none;
+}
+.sidebar .price__input:focus {
+  outline: 1px solid #3A4855;
 }
 .sidebar .price input::-webkit-outer-spin-button,
 .sidebar .price input::-webkit-inner-spin-button {

@@ -84,6 +84,7 @@ function Booker() {
         name={name}
         clearName={clearName}
         handleActive={handleActive}
+        isActive={isActive}
       />
       <main className="booker-main">
         <section className={isActive ? "" : "hide-for-mobile"}>

@@ -8,23 +8,37 @@
   transition: opacity 300ms ease-in-out;
 
   &:hover {
-      opacity: 0.75;
+    opacity: 0.75;
   }
 }
 
 .hamburger-button {
   margin-left: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  cursor: pointer;
 
-  @include breakpoint-up(medium) {
-    display: none;
+  > span {
+    display: block;
+    width: 26px;
+    height: 2px;
+    background-color: $veryDarkBlue;
+    transition: all 300ms ease-in-out;
+    transform-origin: 3px 1px;
+
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
   }
+  
+  &.open {
+    > span:first-child {
+      transform: rotate(45deg);
+    }
 
-  span {
-    width: 1.3rem;
-    border: 1px solid;
+    > span:nth-child(2) {
+      opacity: 0;
+    }
+
+    > span:last-child {
+      transform: rotate(-45deg);
+    }
   }
 }
