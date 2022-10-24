@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import myImg from "../../Assets/images/tutor.png";
+import myImg from "../Assets/images/tutor.png";
 
 function Profile() {
 
