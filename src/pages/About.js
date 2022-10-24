@@ -1,4 +1,5 @@
 import React from "react";
+import myImg from "../Assets/images/tutor.png";
 
 function About() {
   return (
@@ -6,7 +7,7 @@ function About() {
       <div>
         <div className="info flex-column">
           <img
-            src="../images/tutor.png"
+            src={myImg}
             alt="BadukWei"
             className="img"
           />

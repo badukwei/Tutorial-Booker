@@ -1,11 +1,12 @@
 import React from "react";
 import { PriceTag } from "../../Comfig/Styles/ButtonStyles";
+import myImg from "../../Assets/images/tutor.png";
 
 function Card(props) {
   return (
     <div className="card">
       <img
-        src={props.img}
+        src={props.id === 1 ? myImg : props.img}
         alt="tutor"
         className="card__img"
       />
