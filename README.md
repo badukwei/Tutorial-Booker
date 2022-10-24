@@ -59,6 +59,19 @@ warning : 因為此專案為純前端專案，因此並未真的存在註冊更�
 
 ![image](https://user-images.githubusercontent.com/109848154/197516449-f34a4e85-2789-43af-bd6b-19a3f4b1e023.png)  
 
+9.登入後右上角則會變成My Account字樣，點擊之後會顯示個人資料，點擊Profile可以看到個人資料  
+
+![image](https://user-images.githubusercontent.com/109848154/197517555-150bac0b-cdb5-4c91-a121-2d43cd18f5fe.png)  
+
+10.當然也可以點擊Learning schedule看目前的預定課的行事曆  
+
+![image](https://user-images.githubusercontent.com/109848154/197517846-abd4e699-a688-48f8-847d-10bae09e1b89.png)
+
+11.如果回心轉意，當然也可以點擊become a tutor，填寫上面所說的表格  
+
+![image](https://user-images.githubusercontent.com/109848154/197517950-435d15f5-a9a2-4f71-afd6-bc8dfa6b12b5.png)
+
+
 以教師身分登入  
 
 1.進入主頁後在右上角點擊Login  
