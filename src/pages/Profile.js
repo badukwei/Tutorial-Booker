@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import myImg from "../../Assets/images/tutor.png";
 
 function Profile() {
 
@@ -18,7 +19,7 @@ function Profile() {
         <div>
           <div className="info flex-column">
             <img
-              src={userData.tutor.img}
+              src={userData.tutor.id === 1 ? myImg : userData.tutor.img}
               alt={userData.tutor.name}
               className="img"
             />
