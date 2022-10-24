@@ -1,4 +1,5 @@
 import React from "react";
+import search from "../../Assets/icons/search.png"
 
 //Click the item and show the result
 function Topbar(props) {
@@ -22,7 +23,7 @@ function Topbar(props) {
           value={props.name}
         />
         <img
-          src="../icons/search.png"
+          src={search}
           alt="search"
           className="search-img"
         />

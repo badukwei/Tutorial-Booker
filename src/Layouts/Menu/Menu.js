@@ -16,19 +16,19 @@ function Menu() {
       <h1>{userInfo.tutor.name ? userInfo.tutor.name : userInfo.tutee.name}</h1>
       {isTutor && (
         <div className="tutor-menu flex-column-center">
-          <MenuLink to={`${userInfo.tutor.id}/profile`}>Profile</MenuLink>
-          <MenuLink to={`${userInfo.tutor.id}/teaching-schedule`}>Teaching schedule</MenuLink>
-          <MenuLink to={`${userInfo.tutee.id}/learning-schedule`}>Learning schedule</MenuLink>
+          <MenuLink to={`/tutorial-booker/${userInfo.tutor.id}/profile`}>Profile</MenuLink>
+          <MenuLink to={`/tutorial-booker/${userInfo.tutor.id}/teaching-schedule`}>Teaching schedule</MenuLink>
+          <MenuLink to={`/tutorial-booker/${userInfo.tutee.id}/learning-schedule`}>Learning schedule</MenuLink>
         </div>
       )}
       {isTutee && (
         <div className="tutee-menu flex-column-center">
-          <MenuLink to={`${userInfo.tutor.id}/profile`}>Profile</MenuLink>
-          <MenuLink to={`${userInfo.tutee.id}/learning-schedule`}>Learning schedule</MenuLink>
-          <MenuLink to="/tutor-form">Become a tutor</MenuLink>
+          <MenuLink to={`/tutorial-booker/${userInfo.tutor.id}/profile`}>Profile</MenuLink>
+          <MenuLink to={`/tutorial-booker/${userInfo.tutee.id}/learning-schedule`}>Learning schedule</MenuLink>
+          <MenuLink to="/tutorial-booker/tutor-form">Become a tutor</MenuLink>
         </div>
       )}
-      <MenuLink to="/contact">Contact us</MenuLink>
+      <MenuLink to="/tutorial-booker/contact">Contact us</MenuLink>
       <Logout />
     </div>
   )

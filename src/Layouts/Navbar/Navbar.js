@@ -4,6 +4,7 @@ import { NavbarLink } from "../../Comfig/Styles/ButtonStyles"
 import NotLoggedIn from "../../Components/Navbar/NotLoggedIn";
 import AccountInfo from "../../Components/Navbar/AccountInfo";
 import HamburgerMenu from "../../Layouts/Menu/HamburgerMenu";
+import layor from "../../Assets/icons/layers.png"
 
 function Navbar() {
 
@@ -16,23 +17,23 @@ function Navbar() {
   return (
     <nav className="navbar">
       <img
-        src="../icons/layers.png"
+        src={layor}
         alt="booking-system"
         className="navbar__img"
       />
       <h1 className="navbar__title">Easy Booker</h1>
       <ul className="pages">
         <li className="navbar__item1">
-          <NavbarLink to="/" >Home</NavbarLink>
+          <NavbarLink to="tutorial-booker" >Home</NavbarLink>
         </li>
         <li className="nabar__item2">
-          <NavbarLink to="/about" >About</NavbarLink>
+          <NavbarLink to="tutorial-booker/about" >About</NavbarLink>
         </li>
         <li className="navbar__item3">
-          <NavbarLink to="/contact" >Contact</NavbarLink>
+          <NavbarLink to="tutorial-booker/contact" >Contact</NavbarLink>
         </li>
         <li className="navbar__item3">
-          <NavbarLink to="/book-tutor" >Tutors</NavbarLink>
+          <NavbarLink to="tutorial-booker/book-tutor" >Tutors</NavbarLink>
         </li>
       </ul>
       { isLoggedIn ? <AccountInfo /> : <NotLoggedIn /> }

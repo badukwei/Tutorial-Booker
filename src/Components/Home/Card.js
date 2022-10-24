@@ -22,7 +22,7 @@ function Card(props) {
         <h2>About</h2>
         <p>{props.description}</p>
       </div>
-      <PriceTag to={`/book-tutor/${props.id}`}>{`${props.rate} / 1 hour`}</PriceTag>
+      <PriceTag to={`/tutorial-booker/book-tutor/${props.id}`}>{`${props.rate} / 1 hour`}</PriceTag>
     </div>
   )
 }

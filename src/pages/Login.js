@@ -26,7 +26,7 @@ function Login() {
       email: googleInfo.email
     }))
     dispatch(authActions.tuteeLogin());
-    navigate('/');
+    navigate('/tutorial-booker');
   };
   const onFailure = (err) => {
     console.error(err)

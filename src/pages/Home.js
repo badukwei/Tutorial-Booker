@@ -23,7 +23,7 @@ function Home() {
           <h1>Tutors</h1>
           <h4>Your best matches are all here!</h4>
         </div>
-        <ButtonLink to="/login" className="button">Start</ButtonLink>
+        <ButtonLink to="/tutorial-booker/login" className="button">Start</ButtonLink>
       </div>
       <section className="card-list">
         {card}

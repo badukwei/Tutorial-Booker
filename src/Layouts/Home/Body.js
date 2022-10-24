@@ -1,5 +1,9 @@
 import React from "react";
-import { ButtonLink } from "../../Comfig/Styles/ButtonStyles"
+import { ButtonLink } from "../../Comfig/Styles/ButtonStyles";
+import homeImg from "../../Assets/images/home-page.jpg";
+import bookMark from "../../Assets/icons/bookmark.png";
+import edit from "../../Assets/icons/edit.png";
+import ok from "../../Assets/icons/ok.png";
 
 function Body() {
   return (
@@ -10,26 +14,26 @@ function Body() {
           Matching tutors and tutees
           <br />create by WeiChun Lin
         </p>
-        <ButtonLink to="signup">Check it now</ButtonLink>
+        <ButtonLink to="/tutorial-booker/signup">Check it now</ButtonLink>
         <img 
-        src="../icons/edit.png"
+        src={edit}
         alt="icon"
         className="icon2"
         /> 
       </div>
       <div className="body__imgs">
         <img 
-          src="../images/home-page.jpg"
+          src={homeImg}
           alt="tutorial"
           className="img-main"
         />
         <img 
-          src="../icons/bookmark.png"
+          src={bookMark}
           alt="icon"
           className="icon1"
         /> 
         <img 
-          src="../icons/ok.png"
+          src={ok}
           alt="icon"
           className="icon3"
         /> 

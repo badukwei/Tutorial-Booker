@@ -70,10 +70,10 @@ function LoginForm() {
   const onSubmit = (data) => {
     if(matchTutor(data.name, data.password)) {
       dispatch(authActions.tutorLogin())
-      return navigate('/')
+      return navigate('/tutorial-booker')
     } else if(matchTutee(data.name, data.password)) {
       dispatch(authActions.tuteeLogin())
-      return  navigate('/')
+      return  navigate('/tutorial-booker')
     } 
     return console.log("Check your account and password again...")
   };

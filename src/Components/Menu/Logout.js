@@ -19,7 +19,7 @@ function Logout() {
     dispatch(infoActions.cleanUserInfo());
     dispatch(scheduleActions.cleanUserSchedule());
     console.log("logged out");
-    navigate('/');
+    navigate('/tutorial-booker');
   }
 
   return (

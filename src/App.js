@@ -52,17 +52,17 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="book-tutor" element={<Booker />} />
-        <Route path="book-tutor/:tutorId" element={< TutorProfolio />} />
-        <Route path="login" element={<Login />} />
-        <Route path="signup" element={<Signup />} />
-        <Route path="signup/tutor-form" element={<TutorForm />} />
-        <Route path=":tutorId/teaching-schedule" element={< TeachingSchedule />} />
-        <Route path=":tuteeId/learning-schedule" element={< LearningSchedule />} />
-        <Route path=":id/profile" element={< Profile />} />
+        <Route path="tutorial-booker" exact element={<Home />} />
+        <Route path="tutorial-booker/about" exact element={<About />} />
+        <Route path="tutorial-booker/contact" exact element={<Contact />} />
+        <Route path="tutorial-booker/book-tutor" exact element={<Booker />} />
+        <Route path="tutorial-booker/book-tutor/:tutorId" exact element={< TutorProfolio />} />
+        <Route path="tutorial-booker/login" exact element={<Login />} />
+        <Route path="tutorial-booker/signup" exact element={<Signup />} />
+        <Route path="tutorial-booker/signup/tutor-form" exact element={<TutorForm />} />
+        <Route path="tutorial-booker/:tutorId/teaching-schedule" exact element={< TeachingSchedule />} />
+        <Route path="tutorial-booker/:tuteeId/learning-schedule" exact element={< LearningSchedule />} />
+        <Route path="tutorial-booker/:id/profile" exact element={< Profile />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

@@ -5,10 +5,10 @@ function NotLoggedIn() {
   return (
   <ul className="account">
     <li>
-      <LoginLink to="/login" >Login</LoginLink>
+      <LoginLink to="/tutorial-booker/login" >Login</LoginLink>
     </li>
     <li>
-      <SignupLink to="/signup" >Signup</SignupLink>
+      <SignupLink to="/tutorial-booker/signup" >Signup</SignupLink>
     </li>
   </ul>
   )

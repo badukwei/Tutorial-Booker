@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import checkImg from "../../Assets/icons/checked.png";
 
 //innerText in parent
 function SubjectFilter(props) {
@@ -17,7 +18,7 @@ function SubjectFilter(props) {
       }}
     >
       <label>{props.sub}</label>
-      {isActive ? (<img src="../images/checked.png" alt="checkbox" />) : (<div></div>)}
+      {isActive ? (<img src={checkImg} alt="checkbox" />) : (<div></div>)}
     </div>
   )
 }

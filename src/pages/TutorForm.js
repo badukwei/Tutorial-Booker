@@ -21,7 +21,7 @@ function TutorForm() {
         ...userData,
         ...data
       }));
-    navigate('/')
+    navigate('/tutorial-booker')
   };
 
   return (
