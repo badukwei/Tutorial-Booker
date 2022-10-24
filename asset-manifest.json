@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tutorial-booker/static/css/main.cb3361b0.css",
-    "main.js": "/tutorial-booker/static/js/main.2be4e588.js",
+    "main.css": "/tutorial-booker/static/css/main.78aa5d5a.css",
+    "main.js": "/tutorial-booker/static/js/main.4ab67602.js",
     "static/media/home-page.jpg": "/tutorial-booker/static/media/home-page.122ee8bd2b1b2d9bb562.jpg",
     "static/media/tutor.png": "/tutorial-booker/static/media/tutor.37158e2300fbdf64afcf.png",
     "static/media/layers.png": "/tutorial-booker/static/media/layers.0fea242e453ee7f4c140.png",
     "index.html": "/tutorial-booker/index.html",
-    "main.cb3361b0.css.map": "/tutorial-booker/static/css/main.cb3361b0.css.map",
-    "main.2be4e588.js.map": "/tutorial-booker/static/js/main.2be4e588.js.map"
+    "main.78aa5d5a.css.map": "/tutorial-booker/static/css/main.78aa5d5a.css.map",
+    "main.4ab67602.js.map": "/tutorial-booker/static/js/main.4ab67602.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb3361b0.css",
-    "static/js/main.2be4e588.js"
+    "static/css/main.78aa5d5a.css",
+    "static/js/main.4ab67602.js"
   ]
 }
