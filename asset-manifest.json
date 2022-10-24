@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.d49294a0.css",
-    "main.js": "/static/js/main.f9bc0403.js",
-    "index.html": "/index.html",
-    "main.d49294a0.css.map": "/static/css/main.d49294a0.css.map",
-    "main.f9bc0403.js.map": "/static/js/main.f9bc0403.js.map"
+    "main.css": "/tutorial-booker/static/css/main.d49294a0.css",
+    "main.js": "/tutorial-booker/static/js/main.c5e8b018.js",
+    "index.html": "/tutorial-booker/index.html",
+    "main.d49294a0.css.map": "/tutorial-booker/static/css/main.d49294a0.css.map",
+    "main.c5e8b018.js.map": "/tutorial-booker/static/js/main.c5e8b018.js.map"
   },
   "entrypoints": [
     "static/css/main.d49294a0.css",
-    "static/js/main.f9bc0403.js"
+    "static/js/main.c5e8b018.js"
   ]
 }
