@@ -25,7 +25,7 @@ function Menu() {
         <div className="tutee-menu flex-column-center">
           <MenuLink to={`/tutorial-booker/${userInfo.tutor.id}/profile`}>Profile</MenuLink>
           <MenuLink to={`/tutorial-booker/${userInfo.tutee.id}/learning-schedule`}>Learning schedule</MenuLink>
-          <MenuLink to="/tutorial-booker/tutor-form">Become a tutor</MenuLink>
+          <MenuLink to="/tutorial-booker/signup/tutor-form">Become a tutor</MenuLink>
         </div>
       )}
       <MenuLink to="/tutorial-booker/contact">Contact us</MenuLink>

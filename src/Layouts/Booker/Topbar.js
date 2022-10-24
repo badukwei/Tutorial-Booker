@@ -5,7 +5,7 @@ import search from "../../Assets/icons/search.png"
 function Topbar(props) {
 
   return (
-    <div className="flex-row-space-between">
+    <div className="flex-row-space-between search-container">
       <div className={props.isActive ? "hamburger-button open hide-for-desktop" : "hamburger-button hide-for-desktop"} onClick={props.handleActive}>
         <span></span>
         <span></span>
@@ -16,7 +16,6 @@ function Topbar(props) {
           type="text"
           placeholder="Search..."
           className="search__input"
-          size="30"
           onChange={(event) => {
             props.handleName(event.target.value.toLowerCase());
           }}

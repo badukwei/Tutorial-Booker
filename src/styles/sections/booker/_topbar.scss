@@ -1,5 +1,5 @@
 .search {
-  width: 332px;
+  max-width: 332px;
   position: relative;
   display: flex;
   margin: 1.5rem auto;
@@ -20,8 +20,11 @@
     height: 20px;
     width: 20px;
     margin: 0rem;
+    margin-right: 5px;
   }
 
+
+  //search layout but now we don't have
   &__box {
     position: absolute;
     top: 38px;

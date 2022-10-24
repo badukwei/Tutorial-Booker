@@ -190,6 +190,10 @@ body h1, body h2, body h3, body p, body label {
   top: 100%;
 }
 
+.search-container {
+  width: 100%;
+}
+
 #logOutButton {
   width: 80%;
   text-align: center;
@@ -799,7 +803,7 @@ body h1, body h2, body h3, body p, body label {
 }
 
 .search {
-  width: 332px;
+  max-width: 332px;
   position: relative;
   display: flex;
   margin: 1.5rem auto;
@@ -818,6 +822,7 @@ body h1, body h2, body h3, body p, body label {
   height: 20px;
   width: 20px;
   margin: 0rem;
+  margin-right: 5px;
 }
 .search__box {
   position: absolute;
@@ -878,6 +883,7 @@ body h1, body h2, body h3, body p, body label {
   grid-column-end: 4;
 }
 .tutorForm .price {
+  text-align: center;
   grid-column-start: 2;
   grid-column-end: 3;
 }
