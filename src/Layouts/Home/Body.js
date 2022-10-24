@@ -9,7 +9,7 @@ function Body() {
   return (
     <section className="body">
       <div className="body__texts">
-        <h1 className="body__title">Booking Tutorials more eazily</h1>
+        <h1 className="body__title">Booking Tutorials more easily</h1>
         <p className="body__paragraph">
           Matching tutors and tutees
           <br />create by WeiChun Lin
