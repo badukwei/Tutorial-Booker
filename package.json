@@ -2,7 +2,6 @@
   "name": "tutorial-booking-system",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://badukwei.github.io/tutorial-booker/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "@syncfusion/ej2-react-schedule": "^20.3.47",
