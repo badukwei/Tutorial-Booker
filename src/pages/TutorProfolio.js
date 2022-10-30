@@ -1,10 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-
 import BookSchedule from "../Components/Booker/BookSchedule";
-
 import scheduleData from "../Data/scheduleData";
-import memberData from "../Data/memberData"
+import memberData from "../Data/memberData";
+import myImg from "../Assets/images/tutor.png";
 
 function TutorProfolio() {
 
@@ -30,7 +29,7 @@ function TutorProfolio() {
         return (
           <div className="tutor" key={item.id}>
             <img
-              src={item.img}
+              src={item.id === 1 ? myImg : item.img}
               alt={item.name}
               className="tutor__img"
             />

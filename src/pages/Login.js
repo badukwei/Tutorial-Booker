@@ -44,7 +44,7 @@ function Login() {
       />
       <p className="login-text">Or login with your account!</p>
       <LoginForm></LoginForm>
-      <p>Don't have one? <Link to="/signup">Signup here</Link></p>
+      <p>Don't have one? <Link to="tutorial-booker/signup">Signup here</Link></p>
     </div>
   )
 }
