@@ -69,9 +69,9 @@ function Booker() {
     } else if (name && major.length > 0 && !(minPrice && maxPrice)) {
       return searchName(searchMajor(data))
     } else if (name && !(major.length > 0) && !(minPrice && maxPrice)) {
-      return searchName(searchMajor(data))
+      return searchName(data)
     } else if (!name && major.length > 0 && !(minPrice && maxPrice)) {
-      return searchName(searchMajor(data))
+      return searchMajor(data)
     } else {
       return data
     }
